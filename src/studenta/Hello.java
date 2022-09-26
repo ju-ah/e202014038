@@ -1,8 +1,9 @@
 package studenta;
 
 public class Hello {
+	String msg = "hello";
+
 	public void say() {
-		Hello hello = new Hello();
-		hello.say();
+		System.out.println(msg);
 	}
 }
